@@ -1,4 +1,4 @@
-package VsCode_Java.Problem;
+package VsCode_Java.Java_Problem;
 
 import java.util.ArrayList;
 import java.util.Collections;

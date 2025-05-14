@@ -1,4 +1,4 @@
-package VsCode_Java.Problem;
+package VsCode_Java.Java_Problem;
 
 import java.io.BufferedReader;
 import java.io.IOException;
