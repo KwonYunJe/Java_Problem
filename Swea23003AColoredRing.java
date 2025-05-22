@@ -16,6 +16,7 @@ public class Swea23003AColoredRing {
 
         for(int tc = 0 ; tc < t ; tc++){
             String[] colors = sc.nextLine().split(" ");
+            //6으로 나눈 나머지를 구하는 이유 : index를 벗어나지 않고 초과한 만큼 index 내에서 찾기 위함.
             String[] beside = new String[]{colorRing[(Arrays.asList(colorRing).indexOf(colors[0]) + 5) % 6], colorRing[(Arrays.asList(colorRing).indexOf(colors[0]) + 1) % 6]};
             String oposite = colorRing[(Arrays.asList(colorRing).indexOf(colors[0]) + 3) % 6];
             boolean same = colors[0].equals(colors[1]);
@@ -30,6 +31,8 @@ public class Swea23003AColoredRing {
                 answer[tc] = 'X';
             }
         }
+
+        sc.close();
 
         for(int i = 0 ; i < answer.length ; i++){
             System.out.println(answer[i]);
