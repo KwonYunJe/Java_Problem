@@ -1,4 +1,3 @@
-package VsCode_Java.Java_Problem;
 
 import java.util.Arrays;
 import java.util.Scanner;
