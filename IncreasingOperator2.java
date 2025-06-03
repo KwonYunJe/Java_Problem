@@ -43,5 +43,7 @@ public class IncreasingOperator2 {
         for(int i = 0 ; i < answer.size() ; i++){
             System.out.println(answer.get(i) + "");
         }
+
+        sc.close();
     }
 }

@@ -34,5 +34,6 @@ public class Swea21425PlusEqual {
             for(int i = 0 ; i < answer.length ; i++){
                 System.out.println(answer[i]);
             }
+            sc.close();
         }
     }

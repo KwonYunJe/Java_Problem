@@ -114,6 +114,6 @@ public class Swea1974SudokuVerification {
         for(int i = 0 ; i < answer.length ; i++){
             System.out.println("#" + (i+1) + " " + answer[i]);
         }
-        
+        sc.close();
     }
 }

@@ -65,5 +65,6 @@ public class Swea1959TwoArrays {
         for(int i = 0 ; i < answer.size() ; i++){
             System.out.println("#" + (i+1) + " " + answer.get(i));
         }
+        sc.close();
     }
 }

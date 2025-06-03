@@ -48,6 +48,6 @@ public class Swea1970EasyChange {
             }
             System.out.println();
         }
-
+        sc.close();
     }
 }

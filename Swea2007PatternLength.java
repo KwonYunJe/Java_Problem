@@ -34,5 +34,6 @@ public class Swea2007PatternLength {
 
             System.out.println("#" + tc + " " + patternLength);
         }
+        sc.close();
     }
 }

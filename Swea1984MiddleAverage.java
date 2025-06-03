@@ -40,5 +40,6 @@ public class Swea1984MiddleAverage {
         for(int i = 0 ; i < t ; i++){
             System.out.println("#" + (i + 1) + " " + answer.get(i));
         }
+        sc.close();
     }
 }

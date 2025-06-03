@@ -37,5 +37,6 @@ public class Swea22795AverageOfSevenLoads {
         for(int i = 0 ; i < answer.length ; i++){
             System.out.println(answer[i]);
         }
+        sc.close();
     }
 }

@@ -66,5 +66,6 @@ public class Swea1961NumberArrayRotation {
                 System.out.println();
             }
         }
+        sc.close();
     }
 }

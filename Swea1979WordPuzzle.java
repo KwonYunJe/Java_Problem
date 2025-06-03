@@ -122,5 +122,6 @@ public class Swea1979WordPuzzle {
         for(int i = 0 ; i < t ; i++){
             System.out.println("#" + (i+1) + " " + answer.get(i));
         }
+        sc.close();
     }
 }

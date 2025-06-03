@@ -44,5 +44,6 @@ public class Swea1983AssistantProfessorGrading {
 
             System.out.println("#" + tc + " " + grade[index]);
         }
+        sc.close();
     }
 }

@@ -79,5 +79,6 @@ public class Swea1946SimpleUnzip {
                 System.out.println();
             }
         }
+        sc.close();
     }
 }

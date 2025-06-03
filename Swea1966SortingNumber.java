@@ -42,5 +42,6 @@ public class Swea1966SortingNumber {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

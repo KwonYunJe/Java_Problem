@@ -40,5 +40,6 @@ public class Swea1945PrimeFactorization {
         for(int i = 0 ; i < t ; i++){
             System.out.println("#" + (i+1) + answer[i]);
         }
+        sc.close();
     }
 }

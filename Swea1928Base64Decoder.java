@@ -40,5 +40,6 @@ public class Swea1928Base64Decoder {
         for (int i = 0; i < answer.length; i++) {
             System.out.println("#" + (i + 1) + " " + answer[i].toString());
         }
+        sc.close();
     }
 }

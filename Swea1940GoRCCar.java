@@ -46,6 +46,7 @@ public class Swea1940GoRCCar {
         for(int i = 0 ; i < answer.length ; i++){
             System.out.println("#" + (i+1) + " " + answer[i]);
         }
+        sc.close();
     }
 
 }

@@ -13,7 +13,7 @@ public class Swea1913GroceryStore {
 
         for(int tc = 0 ; tc < t ; tc++){
             //가격표 및 할인가격표 개수
-            int num = Integer.parseInt(sc.nextLine());
+            //int num = Integer.parseInt(sc.nextLine());
 
             //섞여서 인쇄된 가격표들 정리
             String[] line = sc.nextLine().split(" ");
